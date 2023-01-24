@@ -1,0 +1,105 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --dark:#350363;
+    --background:#ffe9db;
+}
+html{
+    font-size: 62.5%;
+    font-family:"Montserrat",sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: blueviolet;
+}
+main{
+    width: 50vw;
+    text-align: center;
+    background-color: var(--background);
+    border: solid var(--dark);
+    border-width: .8rem;
+    border-radius: 1rem;
+    color: #1f2933;
+}
+h2{
+font-size: 2rem;
+margin: 2rem;
+}
+h3{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.8rem;
+}
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+}
+button{
+    min-width: 28rem;
+    background-image: linear-gradient(92.88deg,#455eb5 9.16%,#5643cc 43.89%,#673fd7 65.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+   padding: 5px 3px;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    text-transform: capitalize;
+    font-family: "josefin sans",sans-serif;
+}
+#gamearea{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#newgamebutton button{
+    margin: 2rem;
+}
+input{
+    border: 0.1rem solid lightgrey;
+    background: transparent;
+    margin: 14px 0;
+    padding: 14px 0;
+    width: 25rem;
+    text-align: center;
+    font-family: "josefin sans",sans-serif;
+}
+.stats{
+    text-align: left;
+    margin-bottom: 14px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.3rem;
+}
+.stats span{
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
